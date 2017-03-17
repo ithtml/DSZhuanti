@@ -1,0 +1,1 @@
+function __resize(){currClientWidth=document.documentElement.clientWidth,currClientWidth>640&&(currClientWidth=640),320>currClientWidth&&(currClientWidth=320),fontValue=currClientWidth/6.4,document.documentElement.style.fontSize=fontValue+"px"}var currClientWidth,fontValue,originWidth;__resize(),window.addEventListener("resize",__resize,!1);

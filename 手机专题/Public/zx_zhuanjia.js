@@ -1,0 +1,16 @@
+document.writeln(" <div class=\'zx_zhuanjia zx_zhuanjia_b \'>");
+document.writeln("            <h1>都市专家推荐</h1>");
+document.writeln("            <div class=\'zx_zhuanjia6  \'>");
+document.writeln("                <div class=\'zx_zhuanjia61\'><img src=\'../public/images/b_34.jpg\' alt=\'\'></div>");
+document.writeln("                <div class=\'zx_zhuanjia62\'>");
+document.writeln("                    <h1>李秀兰<span>都市首席整形专家</span></h1>");
+document.writeln("                    <div class=\'zx_zhuanjia_b7\'><img src=\'../public/images/b_37.jpg\' alt=\'\'></div>");
+document.writeln("                    <p>无痕丰胸、吸脂减肥、无创注射美容<br>五官精细综合整形、 自体脂肪细胞移植术</p>");
+document.writeln("                    <div class=\'zx_zhuanjia_b7\'><img src=\'../public/images/b_40.jpg\' alt=\'\'></div>");
+document.writeln("                    <p>中华医学会医学美学与美容学会会员<br>国内首批美容整形主诊医师<br>曾多次赴邀国内外美容整形学术交流</p>");
+document.writeln("                    <div class=\'btn3\'>");
+document.writeln("                        <a href=\'javascript:void(0)\'  onClick=\'openZoosUrl();\'><img src=\'../public/images/b_43.jpg\' alt=\'\'></a>");
+document.writeln("                    </div>");
+document.writeln("                </div>");
+document.writeln("            </div>");
+document.writeln("        </div>");

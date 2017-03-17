@@ -1,0 +1,333 @@
+
+body {
+	background: #a4ddef;
+}
+a.cost {
+	position: absolute;
+}
+.row {
+	display: table;
+	width: 100%;
+}
+.row:after {
+	content: '';
+	clear: both;
+}
+
+.col {
+	float: left;
+	position: relative;
+	padding: 14px 25px;
+	border-right: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+.row2>* {
+	border-bottom: none;
+}
+.col-md-1 {
+	width: 100%;
+}
+.col-md-1 img {
+	float: left;
+}
+.col-md-1 .details {
+	float: left;
+	margin-top: 238px;
+	margin-left: 10px;
+	padding-left: 60px;
+}
+.col-md-5 {
+	width: 20%;
+	padding: 14px;
+}
+.col-md-4 {
+	width: 25%;
+}
+.header {
+	height: 1150px;
+}
+.header .banner {
+	height: 575px;
+}
+.header .b1 {
+	background: url(images/banner1.jpg) no-repeat center;
+}
+.header .b2 {
+	background: url(images/banner2.jpg) no-repeat center;
+}
+
+.floor {
+	width: 1415px;
+	margin: 0 auto;
+	margin-bottom: 108px;
+}
+.floor .title {
+
+}
+.floor .title h1 {
+	font-size: 38px;
+	font-weight: 300;
+	margin-bottom: 35px;
+	margin-top: 0;
+
+}
+.floor .title h1 small {
+	font-size: 23px;
+	color: #292929;
+	padding-left: 20px;
+}
+.floor .main {
+	border-top: 3px solid #000;
+	background: #fff;
+	
+}
+.floor .main .left {
+	width: 326px;
+	float: left;
+	position: relative;
+}
+.floor .main .left a.cost {
+	
+	right: 15px;
+	bottom: 85px;
+}
+
+.floor .main .right {
+	float: right;
+	position: relative;
+}
+
+.floor .main .right a.cost {
+	right: 5px;
+	bottom: 15px;
+}
+.floor .main .right a.cost:hover {
+	bottom:20px;
+}
+.floor .main .right p.title {
+	font-size: 22px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.floor .main .right p.jiage {
+	font-size: 19px;
+}
+.floor .main .right p.jiage span.red {
+	font-size: 34px;
+	color: #fa0046;
+}
+.floor .main .right p.yuanjia {
+	color: #666667;
+	font-size: 19px;
+	text-decoration: line-through;
+}
+.floor .main .right p.pr {
+	padding-left: 20px;
+}
+
+.f4 .main .right p.jiage {
+	padding-top: 10px;
+}
+.f4 .main .right p.jiage span.red {
+	font-size: 30px;
+
+}
+.f4 .main .right .row p.title {
+	font-size: 18px;
+}
+
+
+.gold {
+	/*width: 1415px;*/
+	/*margin: 0 auto;*/
+	overflow: hidden;
+	position: relative;
+	background: #fff url(images/bg-top.jpg) no-repeat top;
+}
+.gold .title h1 {
+	font-size: 32px;
+	text-align: center;
+	margin-top: 72px;
+	margin-bottom: 48px;
+	color: #3a3a46;
+}
+.gold .round {
+	height: 733px;
+	position: relative;
+}
+.gold .round .rotateBg{   
+	background: rgba(0, 0, 0, 0) url("images/back.png") no-repeat scroll center center;
+    border-radius: 50%;
+    height: 733px;
+    margin: 10px auto 0;
+    overflow: hidden;
+    width: 733px;}
+.gold .pointer{
+	background: rgba(0, 0, 0, 0) url("images/pointer.png") no-repeat scroll center center;
+    cursor: pointer;
+    height: 388px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 146px;
+	position: absolute;
+}
+.gold .details {
+	padding-left: 36px;
+	font-size: 18px;
+	line-height: 28px;
+/*	height: 354px;
+	background: url(images/bg-btm.jpg) no-repeat bottom;
+*/}
+.gold .details a {
+	color: #fd3647;
+}
+.gold .details>* {
+	/*line-height: 1.48;*/
+}
+.gold .details ol, .gold .details ol li {
+	list-style: decimal outside;
+	padding-left: 0.46875rem;
+	
+}
+.gold .details ol {
+	padding-left: 25px;
+}
+.gold .img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.chongzhi {
+	width: 100%;
+	background: #8cb8ca;
+	text-align: center;
+}
+.chongzhi .main {
+	padding-top: 185px;
+	overflow: hidden;
+
+}
+.chongzhi .main p {
+	font-size: 38px;
+	margin-top: 55px;
+	margin-bottom: 115px;
+}
+.shadowBox {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    bottom: 0;
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+.popBox.active {
+    transform: translate3d(-50%, -50%, 0px);
+}
+.popBox {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 8px;
+    height: 506px;
+    left: 50%;
+    padding: 45px 50px 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate3d(-50%, -250%, 0px);
+    width: 375px;
+    z-index: 10;
+}
+.tran {
+    transition: all 0.3s linear 0s;
+}
+.popBox .closeBtn {
+    display: block;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 30px;
+    z-index: 4;
+}
+.popBox h6 {
+    color: #535353;
+    font-size: 20px;
+}
+
+.popBox h4 {
+    color: #535353;
+    font-size: 32px;
+    line-height: 40px;
+	
+}
+.popBox h5 {
+    color: #02959a;
+    font-size: 24px;
+}
+h4,h5,h6{
+	margin: 0;
+    padding: 0;
+}
+.lock {
+    bottom: 20px;
+    font-size: 14px;
+    left: 270px;
+	position: absolute;	
+}
+.lock img {
+    margin-right: 6px;
+    vertical-align: top;
+}
+.newyearFormBox input {
+    background-color: #d9eeed;
+    border-color: transparent;
+    border-radius: 24px;
+    color: #535353;
+    display: block;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 34px;
+    outline: medium none;
+    padding-left: 30px;
+    text-align: left;
+    width: 100%;
+}
+.newyearFormBox .submitBox {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    background-color: #ffc42a;
+    border-radius: 24px;
+    color: #1b1b1b;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    width: 174px;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+    overflow: hidden;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.newyearFormBox .submitBox a {
+    background-color: #ffc42a;
+    border-radius: 24px;
+    color: #1b1b1b;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    width: 174px;
+}

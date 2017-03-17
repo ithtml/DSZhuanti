@@ -1,0 +1,259 @@
+* {
+	box-sizing: border-box;
+	color: #000;
+}
+body {
+	background: #a4ddef;
+}
+.row {
+	display: table;
+	width: 100%;
+	/*background: #fff;*/
+}
+/*.row:before {
+	content: '';
+	clear: both;
+}*/
+.row:after {
+	content: '';
+	clear: both;
+}
+.col {
+	float: left;
+	position: relative;
+}
+.col-md-2 {
+	width: 50%;
+	padding: 0.125rem 0.15625rem;
+}
+.col-md-3 {
+	width: 33.33%;
+	padding: 0.140625rem 0.234375rem;
+}
+.left {
+	position: relative;
+	width: 3.265625rem; /*209px*/
+	float: left;
+}
+.right {
+	float: left;
+	width: 6.40625rem;
+}
+a.qiang {
+	position: absolute;
+	display: block;
+	width: 0.71875rem;
+}
+.left a.qiang {
+	right: 0.203125rem;
+	bottom: 0.40625rem;
+}
+.col a.qiang {
+	right: 0.15625rem;
+	bottom: 0.234375rem;
+}
+/*.col-md-2 .img {
+	width: 2.609375rem;
+	margin: 0 auto;
+}*/
+.wrapper {
+	
+	padding-left: 0.15625rem;
+	padding-right: 0.15625rem;
+}
+.floor {
+	margin-bottom: 0.703125rem;
+}
+.floor>.title h1 {
+	font-size: 0.390625rem;
+	font-weight: 500;
+}
+.floor>.title h1 small {
+	font-size: 0.234375rem;
+	color: #292929;
+}
+.floor>.main {
+	margin-top: 0.390625rem;
+	border-top: 2px solid #000;
+	background: #fff;
+}
+.floor p.title {
+	font-size: 0.375rem;
+}
+.floor p.jiage {
+	font-size: 0.28125rem;
+}
+.floor p.jiage span {
+	font-size: 0.375rem;
+	color: #fa0046;
+}
+.floor p.yuanjia {
+	font-size: 0.28125rem;
+	color: #666667;
+}
+
+.choujiang {
+	background: #fff url(images/bg-btm.png) no-repeat bottom right;
+	overflow: hidden;
+}
+.choujiang h1 {
+	font-size: 0.390625rem;
+	text-align: center;
+	margin-top: 0.9375rem;
+	margin-bottom: 0.8125rem;
+}
+.choujiang .shuoming {
+	font-size: 0.375rem;
+	margin-bottom: 2.078125rem;
+	padding-left: 0.234375rem;
+	padding-right: 0.234375rem;
+}
+
+.choujiang .shuoming ol {
+	list-style: decimal outside;
+	padding-left: 0.546875rem;
+}
+.choujiang .shuoming ol li {
+	list-style: decimal outside;
+}
+.kajuan {
+	background: #8cb8ca;
+	margin-top: 0.234375rem;
+	overflow: hidden;
+}
+.kajuan h1 {
+	font-size: 0.546875rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 0.546875rem;
+	margin-bottom: 0.46875rem;
+}
+.kajuan p {
+	font-size: 0.4375rem;
+	text-align: center;
+	color: #fff;
+	margin-top: 0.3125rem;
+	margin-bottom: 0.3125rem;
+}
+.body {
+    max-width: 640px;
+    margin: 0 auto;
+    color: #6b6b6b;
+    font-size: 2.4rem;
+    color: #6b6b6b;
+    overflow: hidden;
+}
+.box2 {
+    background: #a1d9ea;
+    position: relative;
+    padding-bottom: 6%;
+}
+.re {
+    position: relative;
+}
+.pointer {
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+	position: absolute;
+}
+.menban {
+    background: rgba(0,0,0,0.4);
+    top: 0;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.popBox.active {
+    -moz-transform: translate3d(-50%,-50%,0);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+.popBox {
+    width: 75.625%;
+    background: #fff;
+    padding: 9.375% 0 12.1%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    border-radius: 5px;
+    text-align: center;
+    -moz-transform: translate3d(-50%,-250%,0);
+    -webkit-transform: translate3d(-50%,-250%,0);
+    transform: translate3d(-50%,-250%,0);
+}
+.tran {
+    -moz-transition: all .3s linear 0s;
+    -webkit-transition: all .3s linear 0s;
+    transition: all .3s linear 0s;
+}
+
+.popBox .closeBtn {
+    display: block;
+    width: 10%;
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    z-index: 4;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+.popBox h6 {
+    font-size: 0.4rem;
+    color: #535353;
+}
+.popBox h4 {
+    font-size: 0.6rem;
+    color: #535353;
+}
+.popBox h5 {
+    font-size: 0.8rem;
+    color: #02959a;
+}
+.newyearFormBox {
+    width: 73.1%;
+    margin: 0 auto;
+}
+.newyearFormBox input,.select span,.selectList ul li{width:100%;font-size:0.6rem;color:#535353;line-height:48px;border-radius:24px; background-color:#d9eeed;border-color:transparent;margin-top:6%;padding-left:11%; outline:none;}
+.newyearFormBox .submitBox,.newyearFormBox .submitBox1 {width:100%;text-align:center;margin-top:8%;
+display: inline-block;
+    width: 63.2%;
+    font-size: 0.3rem;
+    color: #1b1b1b;
+    text-align: center;
+    line-height: 1.8;
+    border-radius: 24px;
+    background-color: #ffc42a;
+}
+.newyearFormBox .submitBox a,.newyearFormBox .submitBox1 a {display:inline-block;width:63.2%;font-size:0.3rem;color:#1b1b1b;text-align:center;line-height:48px;border-radius:24px; background-color:#ffc42a;}
+.popBox>p{ width:20%; margin:6% 0 0 13%}
+@media screen and (min-width:320px) and (max-width:359px){
+    /*  0.5    */
+    html {font-size:31.25%;}
+    .newyearFormBox input,.newyearFormBox .submitBox a,.newyearFormBox .submitBox1 a,.select span,.selectList ul li{line-height:26px;border-radius:12px; }
+}
+@media screen and (min-width:360px) and (max-width:409px){
+    /*   0.56    */
+    html {font-size:35%;}
+
+    .newyearFormBox input,.newyearFormBox .submitBox a,.newyearFormBox .submitBox1 a,.select span,.selectList ul li{line-height:28px;border-radius:13px; }
+
+}
+@media screen and (min-width:410px) and (max-width:479px){
+    /*  0.64    */
+    html {font-size:40%;}
+    .newyearFormBox input,.newyearFormBox .submitBox a,.newyearFormBox .submitBox1 a,.select span,.selectList ul li{line-height:32px;border-radius:15px; }
+
+}
+@media screen and (min-width:480px) and (max-width:639px){
+    /*  0.75    */
+    html {font-size:47%;}
+    .newyearFormBox input,.newyearFormBox .submitBox a,.newyearFormBox .submitBox1 a,.select span,.selectList ul li{line-height:36px;border-radius:17px; }
+
+}

@@ -1,0 +1,476 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Microsoft YaHei";
+  font-size: 0.28125rem;
+}
+section {
+  width: 10rem;
+}
+body {
+  width: 10rem;
+}
+a {
+  color: #fff;
+}
+header {
+  width: 10rem;
+}
+header img {
+  display: block;
+  width: 100%;
+}
+div {
+  line-height: 1;
+}
+h1 {
+  text-align: center;
+  color: #e94162;
+}
+.st1 h2, .st2 h2, .st3 h2, .st4 h2, .st5 h2, .st6 h2, .st7 h2, .st9 h2 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.st1 {
+  width: 100%;
+}
+.st1 h1 {
+  padding-top: 0.6875rem;
+  padding-bottom: 0.078125rem;
+  font-weight: bold;
+  font-size: 0.453125rem;
+}
+.st1 img {
+  padding-bottom: 0.15625rem;
+  display: block;
+  width: 100%;
+}
+.st1 h2 {
+  margin-bottom: 0.546875rem;
+  text-align: center;
+  width: 5.4375rem;
+  line-height: 0.609375rem;
+  color: #fff;
+  font-size: 0.375rem;
+  background: #e94162;
+}
+.st1_1 {
+  width: 9.6875rem;
+  overflow: hidden;
+}
+.st1_1 div {
+  width: 3.015625rem;
+}
+.st1_1 div img {
+  display: block;
+  width: 100%;
+}
+.st1_1 div span {
+  margin-top: 0.09375rem;
+  display: block;
+  width: 3.015625rem;
+  height: 1.140625rem;
+  background: #e94162;
+  text-align: center;
+  overflow: hidden;
+}
+.st1_1 div span h3 {
+  color: #fff;
+  font-size: 0.328125rem;
+  margin-top: 0.421875rem;
+}
+.st2 {
+  width: 100%;
+}
+.st2 h1 {
+  padding-top: 0.609375rem;
+  padding-bottom: 0.078125rem;
+  font-weight: bold;
+  font-size: 0.453125rem;
+}
+.st2 img {
+  padding-bottom: 0.15625rem;
+  display: block;
+  width: 100%;
+}
+.st2 h2 {
+  margin-bottom: 0.640625rem;
+  text-align: center;
+  width: 5.4375rem;
+  line-height: 0.609375rem;
+  color: #fff;
+  font-size: 0.375rem;
+  background: #e94162;
+}
+.st2_1 {
+  width: 9.6875rem;
+  overflow: hidden;
+}
+.st2_1 div {
+  width: 4.34375rem;
+}
+.st2_1 div img {
+  display: block;
+  width: 100%;
+}
+.st2_1 div span {
+  display: block;
+  width: 100%;
+  line-height: 1;
+  height: 3.75rem;
+}
+.st2_1 div span h2 {
+  line-height: 0.8125rem;
+  color: #fff;
+  text-align: center;
+  font-size: 0.34375rem;
+}
+.st2_1 div span p {
+  width: 3.515625rem;
+  margin: 0 auto;
+  line-height: 0.46875rem;
+  color: #fff;
+  text-align: justify;
+}
+.st3 {
+  width: 100%;
+}
+.st3 h1 {
+  padding-top: 0.34375rem;
+  padding-bottom: 0.078125rem;
+  font-weight: bold;
+  font-size: 0.453125rem;
+}
+.st3 img {
+  padding-bottom: 0.15625rem;
+  display: block;
+  width: 100%;
+}
+.st3 h2 {
+  margin-bottom: 0.375rem;
+  text-align: center;
+  width: 5.4375rem;
+  line-height: 0.609375rem;
+  color: #fff;
+  font-size: 0.375rem;
+  background: #e94162;
+}
+.st3_1 {
+  width: 9.6875rem;
+}
+.st3_1 div {
+  width: 8.78125rem;
+  height: 1.546875rem;
+  line-height: 1;
+  background: url("images/st3_1.jpg") no-repeat;
+  background-size: 100%;
+}
+.st3_1 div h1 {
+  text-align: left;
+  line-height: 0.921875rem;
+  margin-left: 0.34375rem;
+  font-size: 0.375rem;
+  font-weight: 600;
+  color: #e94162;
+}
+.st3_1 div h1 img {
+  width: 0.375rem;
+  vertical-align: -0.078125rem;
+}
+.st3_1 div p {
+  margin-left: 0.84375rem;
+  font-size: 0.28125rem;
+}
+.st4 {
+  width: 100%;
+}
+.st4 h1 {
+  padding-top: 0.328125rem;
+  padding-bottom: 0.078125rem;
+  font-weight: bold;
+  font-size: 0.453125rem;
+}
+.st4 img {
+  padding-bottom: 0.15625rem;
+  display: block;
+  width: 100%;
+}
+.st4 h2 {
+  margin-bottom: 0.609375rem;
+  text-align: center;
+  width: 5.4375rem;
+  line-height: 0.609375rem;
+  color: #fff;
+  font-size: 0.375rem;
+  background: #e94162;
+}
+.st4_1 {
+  width: 100%;
+  height: 8.453125rem;
+  background: url("images/st4_1.jpg") no-repeat;
+  background-size: 100%;
+}
+.st4_1 p {
+  text-align: justify;
+  margin-right: .28125rem;
+  float: right;
+  padding-top: 0.46875rem;
+  width: 5.546875rem;
+  line-height: 0.46875rem;
+}
+.st5 {
+  width: 100%;
+  background: #f4f4f4;
+}
+.st5 h1 {
+  padding-top: 0.71875rem;
+  padding-bottom: 0.078125rem;
+  font-weight: bold;
+  font-size: 0.453125rem;
+}
+.st5 img {
+  padding-bottom: 0.15625rem;
+  display: block;
+  width: 100%;
+}
+.st5 h2 {
+  margin-bottom: 0.6875rem;
+  text-align: center;
+  width: 5.4375rem;
+  line-height: 0.609375rem;
+  color: #fff;
+  font-size: 0.375rem;
+  background: #e94162;
+}
+.st5 p {
+  text-align: justify;
+  width: 9.6875rem;
+  line-height: 0.4375rem;
+  font-size: 0.28125rem;
+}
+.st5_1 {
+  width: 9.6875rem;
+  height: 6.734375rem;
+  background: url("images/st5_1.jpg") no-repeat;
+  background-size: 100%;
+  margin-bottom: 0.640625rem;
+}
+.st5_2 {
+  padding-bottom: .4rem;
+  width: 100%;
+}
+.st6 {
+  width: 100%;
+}
+.st6 h1 {
+  padding-top: 0.671875rem;
+  padding-bottom: 0.078125rem;
+  font-weight: bold;
+  font-size: 0.453125rem;
+}
+.st6 img {
+  padding-bottom: 0.15625rem;
+  display: block;
+  width: 100%;
+}
+.st6 h2 {
+  margin-bottom: 0.796875rem;
+  text-align: center;
+  width: 5.4375rem;
+  line-height: 0.609375rem;
+  color: #fff;
+  font-size: 0.375rem;
+  background: #e94162;
+}
+.st6_1 {
+  width: 9.6875rem;
+  overflow: hidden;
+}
+.st6_1 div {
+  width: 4.703125rem;
+}
+.st6_1 div img {
+  display: block;
+  width: 100%;
+}
+.st6_1 div h2 {
+  width: 100%;
+  line-height: 0.90625rem;
+  background: #e94162;
+  text-align: center;
+  color: #fff;
+  font-size: 0.3125rem;
+}
+.st7 {
+  width: 100%;
+}
+.st7 h1 {
+  padding-top: 0.546875rem;
+  padding-bottom: 0.078125rem;
+  font-weight: bold;
+  font-size: 0.453125rem;
+}
+.st7 img {
+  padding-bottom: 0.15625rem;
+  display: block;
+  width: 100%;
+}
+.st7 h2 {
+  text-align: center;
+  width: 5.4375rem;
+  line-height: 0.609375rem;
+  color: #fff;
+  font-size: 0.375rem;
+  background: #e94162;
+}
+.st7_1 {
+  width: 100%;
+  height: 9.109375rem;
+  background: url("images/st7.jpg") no-repeat;
+  background-size: 100%;
+}
+.st7_1 div {
+  margin-left: 0.15625rem;
+  float: left;
+  width: 5.859375rem;
+  line-height: 1;
+}
+.st7_1 div h1 {
+  padding-bottom: 0.078125rem;
+  padding-top: 0.125rem;
+  text-align: left;
+  font-size: 0.375rem;
+  font-weight: 600;
+  color: #e94162;
+}
+.st7_1 div h1 img {
+  padding-right: 0.15625rem;
+  width: 0.484375rem;
+  vertical-align: -0.03125rem;
+}
+.st7_1 div p {
+  font-size: 0.28125rem;
+  line-height: 0.4375rem;
+  text-align: justify;
+}
+.st9 {
+  width: 100%;
+}
+.st9 h1 {
+  padding-top: 0.703125rem;
+  padding-bottom: 0.078125rem;
+  font-weight: bold;
+  font-size: 0.453125rem;
+}
+.st9 img {
+  padding-bottom: 0.15625rem;
+  display: block;
+  width: 100%;
+}
+.st9 h2 {
+  margin-bottom: 0.78125rem;
+  text-align: center;
+  width: 5.4375rem;
+  line-height: 0.609375rem;
+  color: #fff;
+  font-size: 0.375rem;
+  background: #e94162;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 9.0625rem;
+}
+.lb1 {
+  width: 100%;
+  height: 9.0625rem;
+  background: url("images/lb1.jpg") no-repeat;
+  background-size: 100% 9.0625rem;
+  overflow: hidden;
+}
+.lb1 p {
+  margin-left: 4.8125rem;
+  margin-top: 3.1875rem;
+  width: 4.234375rem;
+  color: #fff;
+  line-height: 0.5rem;
+  letter-spacing: 0.015625rem;
+  text-align: justify;
+}
+.lb2 {
+  width: 100%;
+  height: 9.0625rem;
+  background: url("images/lb2.jpg") no-repeat;
+  background-size: 100% 9.0625rem;
+  overflow: hidden;
+}
+.lb2 p {
+  margin-left: 4.828125rem;
+  margin-top: 4.125rem;
+  width: 4.234375rem;
+  color: #fff;
+  line-height: 0.5rem;
+  letter-spacing: 0.015625rem;
+  text-align: justify;
+}
+.lb3 {
+  width: 100%;
+  height: 9.0625rem;
+  background: url("images/lb3.jpg") no-repeat;
+  background-size: 100% 9.0625rem;
+  overflow: hidden;
+}
+.lb3 p {
+  margin-left: 4.4rem;
+  margin-top: 3.1875rem;
+  width: 4.234375rem;
+  color: #fff;
+  line-height: 0.5rem;
+  letter-spacing: 0.015625rem;
+  text-align: justify;
+}
+.zj {
+  position: absolute;
+  top: 2.453125rem;
+  right: .2rem;
+  width: 1.015625rem;
+  z-index: 999;
+}
+.zj img {
+  display: block;
+  width: 1.1rem;
+}
+.tj {
+  width: 100%;
+  line-height: 1;
+  overflow: hidden;
+}
+.tj h1 {
+  margin: 0.703125rem 0 0.265625rem 0;
+  text-align: center;
+  font-size: 0.45rem;
+  font-weight: bold;
+  color: #000;
+}
+.tj h2 {
+  padding-bottom: 0.6875rem;
+  text-align: center;
+  font-size: 0.40625rem;
+}
+.tj1 {
+  width: 9.6875rem;
+}
+.tj1 a {
+  display: inline-block;
+}
+.tj1 a img {
+  display: block;
+  width: 4.046875rem;
+}
+footer {
+  width: 10rem;
+}
+footer img {
+  display: block;
+  width: 100%;
+}

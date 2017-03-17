@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0;}
+img{ display:block;}
+h1,h2,h3,h4,p{ margin:0; padding:0; font-family:"微软雅黑"; font-weight:normal;}
+.se{ border:solid 1px red;}
+.clearfix{ clear:both;}
+a{ text-decoration:none;}
+
+/*广告*/
+.banner{ max-width:10rem;  margin:0 auto; position:relative;}
+.banner img{ width:100%;}
+.bndingwei{ width:2.5625rem; height:0.59375rem; background-color:#5c04c0; font-family:"微软雅黑"; font-size:0.375rem; line-height:0.59375rem; color:#fff1a1; text-align:center; border-radius:38px; position:absolute; right:0; margin-right:1.484375rem; bottom:0; margin-bottom:0.5rem;}
+/*烦恼*/
+.fannaobg{ width:10rem; background-image:url(images/fannaobg.png); margin:0 auto;}
+.fannao{  width:9.6875rem; margin:0 auto; padding-top:0.265625rem; padding-bottom:0.578125rem;}
+.fnbiaoti{ width:9.6875rem; margin:0 auto; margin-bottom:0.515625rem; position:relative;}
+.fnbiaoti h1{ font-family:"长城长宋体"; font-size:0.5625rem; color:#f6189b; text-align:center; margin-bottom:0.140625rem;}
+.fnbiaoti .btxian{ width:2.75rem; height:0.03125rem; background-color:#f6189b; margin:0 auto;}
+.fnbiaoti .btxian2{ width:5.875rem; height:0.03125rem; background-color:#f6189b; margin:0 auto;}
+.fnbiaoti .btxian3{ width:6.78125rem; height:0.03125rem; background-color:#f6189b; margin:0 auto;}
+.fnbiaoti .btxian4{ width:5.0625rem; height:0.03125rem; background-color:#f6189b; margin:0 auto;}
+.fnbiaoti .btxian5{ width:5.046875rem; height:0.03125rem; background-color:#f6189b; margin:0 auto;}
+.fnbiaoti .btxian6{ width:6.65625rem; height:0.03125rem; background-color:#f6189b; margin:0 auto;}
+.fnbiaoti .btxian7{ width:6.125rem; height:0.03125rem; background-color:#f6189b; margin:0 auto;}
+.fnbiaoti .btxian8{ width:9.6875rem; height:0.03125rem; background-color:#f6189b; margin:0 auto;}
+.fnbiaoti>img{ width:0.5625rem; position:absolute; left:50%; margin-left:-0.28125rem;}
+.fannao>p{ width:9.46875rem; font-size:0.28125rem; line-height:0.40625rem; color:#2e0069; margin:0 auto; margin-bottom:0.390625rem;}
+.fnnr1{ margin-bottom:0.15625rem;}
+.fnnr1>img,.fnnr3>img{ width:2.84375rem; margin-right:0.578125rem; float:left;}
+.fnnr2{ margin-bottom:0.34375rem;}
+.fnnr2 .h,.fnnr4 .h{ width:2.84375rem; margin-right:0.578125rem; float:left;}
+.fnnr2 h1,.fnnr4 h1{ font-size:0.28125rem; color:#2e0069; text-align:center;}
+.fnnr3,.fnnr4{ width:6.265625rem; margin:0 auto;}
+.fnnr3{ margin-bottom:0.15625rem;}
+.fnnr4{ margin-bottom:0.375rem;}
+.anniu{ width:2.5625rem; height:0.59375rem; background-color:#5c04c0; font-family:"微软雅黑"; font-size:0.375rem; line-height:0.59375rem; color:#fff1a1; text-align:center; border-radius:38px; margin:0 auto;}
+/*方法*/
+.fangfa{ width:9.6875rem; margin:0 auto; padding-top:0.40625rem; padding-bottom:0.421875rem;}
+.ffnrzuo,.ffnryou{ width:50%; margin:0 auto; float:left;}
+.ffnr1{ margin-bottom:0.203125rem;}
+.ffnr1 img{ width:3.5rem; margin:0 auto;}
+.ffnr2{ margin-bottom:0.4375rem;}
+.ffnr2 h1{ font-size:0.3125rem; color:#010101; text-align:center; margin-bottom:0.15625rem;}
+.ffnr2 h2{ font-size:0.3125rem; color:#010101; text-align:center;}
+/*仪器*/
+.yiqibg{ width:10rem; background-color:#e9dcfd; margin:0 auto; padding-top:0.34375rem; padding-bottom:0.1875rem;}
+.yiqibg>p{ width:9.46875rem; font-size:0.28125rem; line-height:0.40625rem; color:black; margin:0 auto; margin-bottom:0.4375rem;}
+.yiqi{ width:9.6875rem; margin:0 auto;}
+.yiqi>img{ width:3.265625rem; margin-left:0.4375rem; margin-right:0.625rem; float:left;}
+.yiqi .yqneirong{ width:5.171875rem; padding-top:0.328125rem; float:left;}
+.dgyqnr{ width:5.171875rem; height:1rem; background-color:#8d4fd5; border-radius:16px 16px 16px 16px; margin-bottom:0.3125rem;}
+.dgyqnr p{ font-family:"微软雅黑"; font-size:0.28125rem; line-height:0.40625rem; color:#ffffff; padding-left:0.21875rem; padding-top:0.09375rem;}
+/*一步*/
+.yibubg{ width:10rem; background-image:url(images/fannaobg.png); margin:0 auto; padding-top:0.34375rem; padding-bottom:0.390625rem;}
+.yibu{ width:9.6875rem; margin:0 auto;}
+.ybneirongzhong{ width:100%;}
+.ybneirong{ width:9.6875rem; background-color:#a66eb8; padding-top:0.484375rem; padding-bottom:0.15625rem; padding-left:0.28125rem; margin-bottom:0.359375rem;}
+.ybnr1 img{ width:2.84375rem; margin-bottom:0.125rem; margin-right:0.375rem; float:left;}
+.ybnr2 p{ width:2.84375rem; font-size:0.28125rem; line-height:0.40625rem; color:#ffffff; margin-right:0.359375rem; float:left;}
+/*过程*/
+.guocheng{ width:9.6875rem; margin:0 auto; padding-top:0.296875rem;}
+.guocheng>img{ width:100%; margin:0 auto; margin-bottom:0.0625rem;}
+.gcnr{ margin:0 auto; margin-bottom:0.359375rem;}
+.dggcnr{ margin-right:0.5625rem; float:left;}
+.dggcnr h1{ font-size:0.3125rem; color:#f6189b; text-align:center; margin-bottom:0.078125rem;}
+.dggcnr p{ width:2.8125rem; font-size:0.28125rem; line-height:0.40625rem; color:black;}
+/*优势*/
+.youshi{ width:9.6875rem; margin:0 auto; padding-top:0.625rem;}
+.fnbiaoti h2{ font-size:0.375rem; color:#f6189b; text-align:center;}
+.ysnr{ width:8.84375rem; margin:0 auto; margin-bottom:0.71875rem;}
+.ysnr img{ width:4.046875rem; float:left; margin-right:0.75rem;}
+/*真人案例*/
+.zhenrenanli{ width:9.6875rem; margin:0 auto; padding-top:0.34375rem; padding-bottom:0.28125rem;}
+.dynr{ margin-bottom:0.125rem;}
+.dynr img{ width:4.5625rem; margin:0 auto; margin-right:0.390625rem; float:left;}
+.denr{ margin-bottom:0.25rem;}
+.denr .h1{ width:4.625rem; margin-right:0.390625rem; float:left;}
+.denr .h2{ width:4.5625rem; margin-right:0.390625rem; float:left;}
+.denr h1{ font-size:0.25rem; color:black; text-align:center;}
+/*专家*/
+.zhuanjiabg{ width:10rem; background:url(images/zhuanjiabg.png); margin:0 auto; padding-top:0.40625rem; padding-bottom:0.3125rem;}
+.swiper-container{ width:9.6875rem; margin:0 auto; position:relative;}
+.swiper-slide img{ width:9.6875rem;}
+    .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+.swiper-pagination{ margin-bottom:0; padding-bottom:0;}
+.huadong{ width:1.640625rem; position:absolute; bottom:0; left:50%;}
+.huadong span{ width:0.28125rem; height:0.28125rem; border-radius:50%; background-color:#a3a3a3; margin-right:0.265625rem; float:left;}
+.huadong .current{ background-color:#fe3509;}
+/*页脚*/
+.yejiao{ width:10rem; margin:0 auto;}
+.yejiao img{ width:100%;}

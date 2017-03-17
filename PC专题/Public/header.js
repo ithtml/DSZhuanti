@@ -1,0 +1,12 @@
+document.writeln("<div class=\'nav-bar\'>");
+document.writeln("<ul class=\'nav\'>");
+document.writeln("<li><a href=\'/\' target=\'_blank\'>首页</a></li>");
+document.writeln("<li><a href=\'/zhengxing/\' target=\'_blank\'>整形中心</a></li>");
+document.writeln("<li><a href=\'/meirong/\' target=\'_blank\'>皮肤美容</a></li>");
+document.writeln("<li><a href=\'/weizhengxing/\' target=\'_blank\'>微整形</a></li>");
+document.writeln("<li><a href=\'/jianjie/zhuanjiatuandui/\' target=\'_blank\'>专家团队</a></li>");
+document.writeln("<li><a href=\'/jianjie/anlizhongxin/\' target=\'_blank\'>整形案例</a></li>");
+document.writeln("<li><a href=\'/page/index_lylx.html\' target=\'_blank\'>联系我们</a></li>");
+document.writeln("<li><a href=\'http://wpa.qq.com/msgrd?v=3&uin=996100158&site=qq&menu=yes\' target=\'_blank\'>QQ咨询</a></li>");
+document.writeln("</ul>");
+document.writeln("</div>");
