@@ -30,14 +30,6 @@ gulp.task('serve', ['less'], function() {
     gulp.watch(folders.dir + "/*.html").on('change', reload);
 });
 
-// // less编译后的css将注入到浏览器里实现更新
-// gulp.task('less', function() {
-//     return gulp.src(folders.dir + "/less/*.less")
-//         .pipe(px2rem())
-//         .pipe(less())
-//         .pipe(gulp.dest(folders.dir + "/css"))
-//         .pipe(reload({stream: true}));
-// });
 
  gulp.task('less', function(){
      return gulp.src(folders.dir + "/css.less")
