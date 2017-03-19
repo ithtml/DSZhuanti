@@ -12,6 +12,17 @@ var folder = {
 };
 var folders = mist(process.argv.slice(2), folder);
 
+
+
+
+ gulp.task('less', function(){
+     return gulp.src(folders.dir + "/css.less")
+        .pipe(less())
+        .pipe(px2rem())
+        .pipe(gulp.dest(folders.dir))
+        .pipe(reload({stream: true}));
+ });
+
 // 静态服务器 + 监听 less/html 文件
 gulp.task('serve', ['less'], function() {
 
@@ -24,19 +35,8 @@ gulp.task('serve', ['less'], function() {
         browser: "chrome"
     });
 
-    // gulp.watch("app/less/*.less", ['less']);
-    // gulp.watch("app/*.html").on('change', reload);
     gulp.watch(folders.dir + "/*.less", ['less']);
     gulp.watch(folders.dir + "/*.html").on('change', reload);
 });
-
-
- gulp.task('less', function(){
-     return gulp.src(folders.dir + "/css.less")
-        .pipe(less())
-        .pipe(px2rem())
-        .pipe(gulp.dest(folders.dir))
-        .pipe(reload({stream: true}));
- });
 
  gulp.task('default', ['serve']);
