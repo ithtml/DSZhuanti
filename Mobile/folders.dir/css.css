@@ -1,0 +1,30 @@
+.app * {
+  color: #000;
+}
+.app img {
+  width: 100%;
+}
+.app .title {
+  text-align: center;
+}
+.app .title h1 {
+  font-size: 0.4688rem;
+  margin-top: 0.4688rem;
+  margin-bottom: 0.2344rem;
+}
+.app .main {
+  padding-left: 0.1563rem;
+  padding-right: 0.1563rem;
+}
+.app .main .wz p {
+  font-size: 0.3125rem;
+  line-height: 1.5;
+}
+.app .main .img {
+  margin-top: 0.4688rem;
+  margin-bottom: 0.2344rem;
+}
+.app .main .detils p {
+  font-size: 0.2813rem;
+  line-height: 1.6;
+}

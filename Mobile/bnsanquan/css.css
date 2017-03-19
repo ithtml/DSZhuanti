@@ -1,0 +1,128 @@
+body {
+  color: #000;
+}
+.app * {
+  box-sizing: border-box;
+}
+.app img {
+  width: 100%;
+}
+.app .row {
+  display: table;
+  margin-left: -0.1563rem;
+  margin-right: -0.1563rem;
+}
+.app .row:after {
+  content: '';
+  clear: both;
+}
+.app .col {
+  width: 50%;
+  padding: 0.1563rem;
+  float: left;
+}
+.app .title {
+  text-align: center;
+}
+.app .title h1 {
+  font-size: 0.4688rem;
+  margin-top: 0.4688rem;
+  margin-bottom: 0.2344rem;
+}
+.app .main {
+  padding-left: 0.1563rem;
+  padding-right: 0.1563rem;
+  position: relative;
+}
+.app .main .wz p {
+  font-size: 0.3125rem;
+  line-height: 1.5;
+}
+.app .main .img {
+  margin-top: 0.4688rem;
+  margin-bottom: 0.2344rem;
+}
+.app .main .detils p {
+  font-size: 0.2813rem;
+  line-height: 1.6;
+}
+.app .main a.btn {
+  display: block;
+  background: #d44191;
+  font-size: 0.3750rem;
+  color: #fff;
+  width: 6.2500rem;
+  height: 0.8594rem;
+  line-height: 0.8594rem;
+  text-align: center;
+  margin: 0.4688rem auto 0.3125rem;
+}
+.app .b4 {
+  background: #51a5ed;
+  color: #fff;
+  overflow: hidden;
+}
+.app .b4 .title h1 {
+  margin-top: 0.4688rem;
+  margin-bottom: 0.4063rem;
+}
+.app .b4 .img {
+  width: 5.4063rem;
+  margin: 0 auto;
+}
+.app .b4 .detils {
+  margin-top: 0.3906rem;
+  margin-bottom: 0.3125rem;
+}
+.app .b4 .detils p {
+  font-size: 0.3750rem;
+  line-height: 1.25;
+}
+.app .b4 .col h3 {
+  font-size: 0.3750rem;
+  text-align: center;
+  margin-top: 0.3125rem;
+  margin-bottom: 0.2344rem;
+}
+.app .b5 {
+  background: #51a5ed;
+  color: #fff;
+  overflow: hidden;
+}
+.app .b5 .main .wz {
+  color: #000;
+  font-size: 0.3125rem;
+  line-height: 1.5;
+}
+.app .b6 .main {
+  padding: 0;
+}
+.app .b6 .main a.btn-abs {
+  position: absolute;
+  width: 2.8750rem;
+  height: 0.5469rem;
+  right: 1.0938rem;
+  bottom: 0.4375rem;
+}
+.app .b8 {
+  background: #1c5383;
+  color: #fff;
+  overflow: hidden;
+}
+.app .b8 .main .wz p {
+  text-align: center;
+  font-size: 0.3125rem;
+}
+.app .b9 {
+  background: #1b1b1b;
+  overflow: hidden;
+}
+.app .b9 .title h1 {
+  color: #98cfff;
+  font-size: 0.4688rem;
+}
+.app .b9 .main .wz p {
+  color: #fff;
+  font-size: 0.3750rem;
+  text-align: center;
+}
